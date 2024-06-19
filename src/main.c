@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int nice = 69;
-    printf("hello there %i\n", nice);
+    int placeNum;
+    float nice = 69.420;
+    printf("\nhello there %.5f\n\n", nice);
+
+    scanf("%i", &placeNum);
+    printf("\n %i\n", placeNum);
+
+    return 0;
 }
